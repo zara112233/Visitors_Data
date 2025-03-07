@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VERIFICATION SYSTEM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>VERIFICATION SYSTEM</h1>
+        
+        <!-- ✅ Search Bar -->
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search by Name, Mobile, or Company..." oninput="searchData()">
+            <button onclick="resetSearch()">RESET</button>
+        </div>
+
+        <!-- ✅ Table -->
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Mobile Number</th>
+                    <th>Designation</th>
+                    <th>Gate No</th>
+                    <th>In Time</th>
+                    <th>Out Time</th>
+                    <th>Missing</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data will be dynamically inserted here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

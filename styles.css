@@ -1,0 +1,67 @@
+/* ✅ General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* ✅ Container */
+.container {
+    width: 90%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ✅ Title */
+h1 {
+    font-size: 22px;
+    color: #333;
+}
+
+/* ✅ Search Bar */
+.search-container {
+    margin-bottom: 15px;
+}
+
+.search-container input {
+    width: 30%;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.search-container button {
+    padding: 8px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* ✅ Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    text-align: center;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* ✅ Responsive */
+@media (max-width: 768px) {
+    .search-container input {
+        width: 50%;
+    }
+}
